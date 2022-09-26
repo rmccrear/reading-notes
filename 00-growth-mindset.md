@@ -1,6 +1,7 @@
 # The Growth Mindset
 
 [TED Talk](https://www.ted.com/talks/carol_dweck_the_power_of_believing_that_you_can_improve?language=en)
+
 [reference](https://psycnet.apa.org/record/1999-11174-012)
 
 Carol S. Dweck is a psychologist who studies the relationship between mindset and motivation. She measured students on an axis of how they view their own intelligence. Some students view intelligence as malleable, and can be improved through work. Others view it as fixed and cannot change over time. 
