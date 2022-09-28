@@ -9,4 +9,5 @@
 4. ** [es6 Classes and Express Routes](03-express-middleware.md)
 5. ** [Sql and NoSql](04-SQL.md)
 6. [Basic Authentication](06-authentication.md)
+7. ** [JWT](07-jwt.md)
 
