@@ -6,7 +6,7 @@ Role base access control (RBAC) is a common and intuitive way of dealing with au
 
 RBAC can be implmented with tables of roles and capabilities. These are things people are, and things they can do. So the manger can read all employee records, and employees can only read their own, for example. This could be implemented with row with columns role and capabilities of manger - READALL and employee - READOWN.
 
-To be classifed as an RBAC should implement the following rules: [reference][https://en.wikipedia.org/wiki/Role-based_access_control#Design]
+To be classifed as an RBAC should implement the following rules: [reference](https://en.wikipedia.org/wiki/Role-based_access_control#Design)
 
 * Role assignment
 * Role authorization
