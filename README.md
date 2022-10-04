@@ -12,4 +12,4 @@
 7. ** [JWT](07-jwt.md)
 8. [ACL and RBAC](08-ACL.md)
 9. [Event Driven Programming and Pub/Sub](11-event-driven-programming.md)
-
+10. [Web Sockets and Socket.io](12-web-sockets-socket-io.md)
