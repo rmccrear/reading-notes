@@ -11,4 +11,5 @@
 6. [Basic Authentication](06-authentication.md)
 7. ** [JWT](07-jwt.md)
 8. [ACL and RBAC](08-ACL.md)
+9. [Event Driven Programming and Pub/Sub](11-event-driven-programming.md)
 
