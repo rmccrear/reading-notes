@@ -1,8 +1,8 @@
-# Socket,io Rooms and Namespaces
+# Socket.io: Rooms and Namespaces
 
 ## A simple chat example.
 
-If we look at a simple chat example [reference](https://socket.io/get-started/chat/) taken from the Socket.io getting started page, we can get a feel for what Socket.io is good for.
+If we look at a simple chat example ([reference](https://socket.io/get-started/chat/)) taken from the Socket.io getting started page, we can get a feel for what Socket.io is good for.
 
 In this example, we have clients who want send chat-messages to each other. The sever is the go-between, passing the messages back and forth.
 
