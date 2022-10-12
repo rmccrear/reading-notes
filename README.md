@@ -16,3 +16,4 @@
 11. [Socket.io: Rooms and Namespaces](13-socket.io-rooms-and-namespaces.md)
 12. [AWS Cloud Servers](16-aws-cloud-servers.md)
 13. [AWS S3 and Lamnda functions](17-aws-s3-lambda.md)
+14. [AWS DynamoDB](18-aws-api-dynamo-and-lambda.md)
