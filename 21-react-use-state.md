@@ -6,21 +6,30 @@ In React, hooks provide a sort of magical state keeping that works behind the sc
 
 The `useState` syntax works like this:
 
+    import React, {Fragment, useState} from 'react';
+
     function MoreEmoji(props) {
-      const [counter, setCounter] = useState(0);
+      const [counter, setCounter] = useState(1);
 
       let emojis = [];
-      for(let i=0; i<counter; i++)
+      for(let i=0; i<counter; i++){
         emojis.push(props.emoji)
+      }
 
       return (
         <>
           {emojis.map((emoji, i) => <span key={i}>{emoji}</span>)}
-          <button onClick=()=>setCounter(counter+1)>More</span>
-          <button onClick=()=>setCounter(0)>Reset</span>
+          <button onClick={()=>setCounter(counter+1)}>
+            More
+          </button>
+          <button onClick={()=>setCounter(0)}>
+            Reset<
+          /button>
         </>
       )
     }
+
+
 
 This Component will add an emoji character every time the More button is clicked. It will reset the counter to 0 if the Reset button is clicked.
 
