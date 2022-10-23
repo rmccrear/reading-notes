@@ -47,17 +47,18 @@ We see that `useEffect` will set the title of the HTML page to the emoji. It wil
 
       // run only once
       useEffect(()=>{
-        document.title = emojis.map((e)=>e).join('');
+        document.title = `Hello ${props.emoji}`
       }, [])
 
 You can also run a function on unmount by returning a function.
 
       // run only once
       useEffect(()=>{
-        document.title = emojis.map((e)=>e).join('');
+        document.title = `Hello ${props.emoji}`;
+        // run on unmount
         return () => {
           document.title = `Goodbye ${props.emoji}`;
         }
-      })
+      }, [])
 
 The function called on unmount can cleanup. For example, they can unsubscribe to an API so the subscribers do not become zombies.
