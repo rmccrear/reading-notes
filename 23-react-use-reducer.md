@@ -1,4 +1,4 @@
-# React useReducer
+[state, dispatch] =# React useReducer
 
 The concept of a reducer should be familiar to all web developers because a REST API server follows the reducer pattern.
 
@@ -75,3 +75,7 @@ All this is used in the React component like this:
 
 
 You can see that the JSX in the App.js file is pretty simple. That's good, so we let the JSX focus on rendering nicely in the UI for the user. On the other hand, a lot of the logic is isolated in the `reducers.js` file. That file also has an advantage of being testable in isolation. Writing tests is hard, so putting all the logic in one place makes it easier. Additionally, that file has no other dependencies. So there is nothing to mock. Just input messages with a `type` "verb" and output the expected state change.
+
+Your `reducers.js` file can grow to include more more complicated state changes, and still be managed since it is full of pure functions.
+
+[Here is a quick example of useReducer on replit.](https://replit.com/@rmccrear/ReactUseReduce)
