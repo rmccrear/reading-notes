@@ -1,4 +1,6 @@
-[state, dispatch] =# React useReducer
+# useReduce in React
+
+## How is an Express REST API server like a reducer?
 
 The concept of a reducer should be familiar to all web developers because a REST API server follows the reducer pattern.
 
