@@ -61,8 +61,9 @@ And you would also need to modify the reducer so that it increments the count by
 
 All this is used in the React component like this:
 
+    import reducer from './reducers'
     const App = (props) => {
-      const [state, dispatch] = useReducer({count: 0})
+      const [state, dispatch] = useReducer(reducer, {count: 0})
 
       const handleClick () ={
         dispatch({type: "INCREMENT", step: 3}); // send this as a message to the reducer.
