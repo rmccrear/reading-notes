@@ -26,7 +26,7 @@ or
     dispatch({type: DECREMENT});
     ...
 
-Just like in a REST API you need to write the code that makes changes to the state actually change. On the server, you might do this in a `routes` directory. In the case of a React app using useReducer, you can put this in a separate file called `reducers.js`
+Just like in a REST API you need to write the code that makes the state actually change. On the server, you might do this in a `routes` directory. In the case of a React app using `useReducer`, you can put this in a separate file called `reducers.js`
 
     // reducers.js
     const reducer = (state, action) {}
