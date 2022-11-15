@@ -15,7 +15,7 @@
 1. [Web Sockets and Socket.io](12-web-sockets-socket-io.md)
 1. [Socket.io: Rooms and Namespaces](13-socket.io-rooms-and-namespaces.md)
 1. [AWS Cloud Servers](16-aws-cloud-servers.md)
-1. [AWS S3 and Lamnda functions](17-aws-s3-lambda.md)
+1. [AWS S3 and Lambda functions](17-aws-s3-lambda.md)
 1. [AWS DynamoDB](18-aws-api-dynamo-and-lambda.md)
 1. [AWS SNS SQS](19-aws-sns-sqs.md)
 1. [React Native Core Components](41-react-native.md)
