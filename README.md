@@ -1,5 +1,7 @@
 # reading-notes
 
+Below is a list of reading I have done in relation to software development. Please have a look. Later, I may turn some of them into blog posts.
+
 1. [The Growth Mindset](00-growth-mindset.md)
 1. [SQL reference and review](00-SQL.md)
 1. [On the cmd line](00-cmdline.md)
